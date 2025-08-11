@@ -25,5 +25,5 @@ Incluye una web de ejemplo donde podrás navegar y visualizar cuatro implementac
 
 ---
 
-![Logo del Tibu](logo.png)
+<img src="logo.png" alt="Logo del Tibu" width="150">
 
