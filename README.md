@@ -1,4 +1,4 @@
-<h1 style="color:#e91e63;">Píldora Formativa: Arquitecturas CSS</h1>
+<h1 style="color:pink">Píldora Formativa: Arquitecturas CSS</h1>
 
 Este proyecto forma parte de una píldora formativa dedicada a las arquitecturas CSS, donde aprenderás a organizar y estructurar tus estilos para desarrollar proyectos web más mantenibles, escalables y eficientes.
 
