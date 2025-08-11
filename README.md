@@ -1,4 +1,4 @@
-## 👗​ Píldora Formativa: Arquitecturas CSS
+## 👗🎨​​ Píldora Formativa: Arquitecturas CSS
 
 <div align="center">
   <img src="cartel.png" alt="Cartel de la píldora formativa" width="500">
