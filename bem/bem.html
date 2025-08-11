@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BEM Cards CSS only</title>
+  <link rel="stylesheet" href="bem.css">
+</head>
+<body>
+
+<section class="card-section">
+
+  <div class="card">
+    <img src="/src/public/muñeca.jpg" alt="BEM" class="card__image">
+    <h2 class="card__title">BEM</h2>
+    <p class="card__description">Clica en el botón</p>
+    <label for="toggleCard" class="card__button card__button--primary" tabindex="0">Aquí</label>
+  </div>
+
+  <!-- Checkbox oculto para controlar la visibilidad -->
+  <input type="checkbox" id="toggleCard" hidden>
+
+  <div class="card card--hidden" id="newCard">
+    <img src="/src/public/muñeca2.jpg" alt="New Card" class="card__image">
+    <h2 class="card__title">Voilà!</h2>
+    <p class="card__description2">Este estilo de tarjeta se ha codificado con BEM</p>
+  </div>
+
+</section>
+
+</body>
+</html>
+

@@ -1,0 +1,74 @@
+/* Hide checkbox */
+#toggle {
+  display: none;
+}
+
+/* Unstyled card: no CSS for button or content */
+.card-unstyled {
+  padding: 20px;
+}
+
+/* Styled card hidden by default */
+.card-styled {
+  display: none;
+}
+
+/* Toggle cards visibility */
+#toggle:checked ~ .card-unstyled {
+  display: none;
+}
+
+#toggle:checked ~ .card-styled {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f9f0f5; /* pastel pink background */
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* Styled card text */
+.title {
+  color: #d63384;
+  font-family: 'Comic Sans MS', cursive;
+  font-size: 2.5em;
+  margin-bottom: 15px;
+}
+
+.paragraph {
+  font-family: 'Comic Sans MS', cursive;
+  font-size: 1.2em;
+  color: #e070d3;
+  margin-bottom: 30px;
+}
+
+/* Pink button style for second card */
+.pink-button {
+  background-color: #d53ca7; /* light pink */
+  border: none;
+  color: #f5e9ed; /* soft dark color */
+  padding: 14px 28px;
+  font-size: 1.2em;
+  border-radius: 12px;
+  cursor: pointer;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: background-color 0.3s ease;
+  user-select: none;
+  display: inline-block;
+}
+
+/* Remove default button styles and use label as button */
+button {
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+/* Hover effect on pink button */
+.pink-button:hover {
+  background-color: #ffa6b8;
+  color: black;
+}

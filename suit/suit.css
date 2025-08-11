@@ -1,0 +1,40 @@
+/* Contenedor para centrar vertical y horizontal */
+.BodyContainer {
+  display: flex;
+  justify-content: center; /* centrado horizontal */
+  align-items: center;     /* centrado vertical */
+  height: 100vh;           /* altura completa */
+  margin: 0;               /* eliminar margen por defecto */
+}
+
+.Card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  background: white;
+  border-radius: 8px;
+  max-width: 600px;
+  box-sizing: border-box;
+}
+
+.Card-title {
+  font-weight: bold;
+  color: rgb(206, 75, 169);
+  margin: 0 0 0.5rem 0;
+  text-align: center;
+}
+
+.Card-description {
+  margin: 0;
+}
+
+.Card--featured {
+  border-color: rgb(75, 176, 112);
+  background: #b5e0c6;
+}
+p {
+  text-align: center;
+}
+
+.is-active {
+  box-shadow: 0 0 5px blue;
+}

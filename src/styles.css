@@ -1,0 +1,85 @@
+body {
+  font-family: 'Times', sans-serif;
+  margin: 0;
+  padding: 2rem;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  text-shadow: 2px 2px 4px #7d7b7b;
+  -webkit-text-stroke: 0.3px black;
+  color:#ec4bd7;
+}
+
+h2 {
+    text-align: center;
+    -webkit-text-stroke: 0.3px black;
+    color: #ec4bd7;
+
+}
+
+.card-section {
+  margin: 2rem auto;
+  width: 90%;
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s ease;
+  width: 100%;
+  max-width: 350px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card h2 {
+  margin: 1rem 0;
+  font-size: 1.25rem;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.btn {
+  display: inline-block;
+  margin-bottom: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #f49fea;
+  color: rgb(52, 53, 56);
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ec4bd7;
+  color: white;
+}
+
+/* Layout específico */
+.single-card {
+  justify-content: center;
+}
+
+.three-cards .card {
+  flex: 1 1 300px;
+}
+

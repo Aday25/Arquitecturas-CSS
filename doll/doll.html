@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Cards with toggle</title>
+<link rel="stylesheet" href="doll.css" />
+</head>
+<body>
+  <!-- Checkbox toggle oculto -->
+  <input type="checkbox" id="toggle" />
+
+  <!-- First card: no styles, plain button -->
+ <div class="card-unstyled">
+  <h1>¡Hola, soy una muñeca!</h1>
+  <p>Estoy esperando mi vestido...</p>
+  <button>
+  <label for="toggle" style="all:unset; cursor:pointer;">Clica aquí</label>
+</button>
+</div>
+
+  <!-- Styled card -->
+  <div class="card-styled">
+    <h1 class="title">¡Bien!</h1>
+    <p class="paragraph">¡Me encanta mi vestido!</p>
+    <button><label for="toggle" class="pink-button">Clica aquí para la versión anterior</label></button>
+  </div>
+</body>
+</html>
