@@ -1,7 +1,7 @@
 ## 👗​ Píldora Formativa: Arquitecturas CSS
 
 <div align="center">
-  <img src="cartel.png" alt="Cartel de la píldora formativa" width="600">
+  <img src="cartel.png" alt="Cartel de la píldora formativa" width="500">
 </div>
 
 Este proyecto forma parte de una píldora formativa dedicada a las arquitecturas CSS, donde aprenderás a organizar y estructurar tus estilos para desarrollar proyectos web más mantenibles, escalables y eficientes.
